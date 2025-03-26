@@ -49,11 +49,11 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
    
   # Compatible with Scyfin themes:     
     - Seafoam
-        - `@import url('https://cdn.statically.io/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-seafoam.css');`
+        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-seafoam.css');`
     - Coral
-        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-coral.css');`
+        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css');`
     - Snow
-        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-snow.css');`
+        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css');`
     
 ---
 
