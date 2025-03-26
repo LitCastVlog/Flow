@@ -12,7 +12,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 <img src="./images/details.png" alt="dashboard" width="100%"/>
 
-### **- Outline Cards on hover**
+### **Outline Cards on hover**
 <img src="./images/outline_hover.gif" alt="details" width="100%"/>
 <img src="./images/outline.gif" alt="movies" width="100%"/>
 
