@@ -72,7 +72,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 * Click the hamburger icon (Top left)
 * Navigate to "Dashboard" (If you don't see this, make sure you are signed in to your admin account)
 * Navigate to "General"
-* Near the bottom, under "Custom CSS code", paste the `@import url` for the base Scyfin theme
+* Near the bottom, under "Custom CSS code", paste the `@import url` for the base theme
     * Example:
     * <img src="./images/install-server-base.png" alt="install-server-base" width="80%"/>
 * Optional - Paste the `@import url` for any options / themes you may want
@@ -87,7 +87,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 * Click the hamburger icon (Top left)
 * Navigate to "Settings"
 * Navigate to "Display"
-* Near the middle, under "Custom CSS code", paste the `@import url` for the base Scyfin theme
+* Near the middle, under "Custom CSS code", paste the `@import url` for the base theme
     * Note - 
         * If there is any server-wide custom CSS, you may want to enable "Disable server-provided custom CSS code", as the two themes WILL interfere with each other
     * Example:
