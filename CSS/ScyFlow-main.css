@@ -943,6 +943,10 @@ div[class=""] {
 .programCell-active {
     background: var(--secondary-background-color) !important;
 }
+.channelsContainer {
+    background: var(--secondary-background-color) !important;
+}
+
 /* Repositioned record button */
 .recordingFields {
     margin: 5px 0 -7px 0 !important;
