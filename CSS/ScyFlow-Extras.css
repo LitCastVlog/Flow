@@ -24,3 +24,26 @@ div.nextUpSection {
     display: none !important;
     /* Hide the Upcoming on TV text */
 }
+
+/*TV Guide extras*/
+.lazy-image-fadein-fast.non-blurhashable.lazy.guideChannelImage {
+    transition: filter 0.1s ease;
+    z-index: 1;
+}
+
+.lazy-image-fadein-fast.non-blurhashable.lazy.guideChannelImage:hover {
+    filter: drop-shadow(0 0 6px #676767); 
+}
+
+.programCell-active.itemAction.programCell:hover .guideProgramName > .guideProgramNameText {
+    transition: text-shadow 0.2s ease; 
+    text-shadow: 
+        0 0 2px var(--primary-accent-color); 
+}
+
+.channelsContainer button.itemAction.guide-channelHeaderCell:hover {
+    background-color: var(--primary-accent-color) !important; 
+}
+.channelsContainer button.itemAction.guide-channelHeaderCell.selected {
+    background-color: var(--primary-accent-color) !important; 
+}
