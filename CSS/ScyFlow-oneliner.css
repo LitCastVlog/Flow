@@ -1,4 +1,4 @@
-/*Scyfin-theme main, modified*/
+/*Scyflow main*/
 /* Variables */
 :root {
     --primary-r: 0;  
@@ -1372,7 +1372,7 @@ div.nextUpSection {
     /* Hide the Upcoming on TV text */
 }
 
-/* Blue (Default) Theme*/
+/* Default (Blue) Theme*/
 :root {
       --primary-r: 0; 
     --primary-g: 153; 
