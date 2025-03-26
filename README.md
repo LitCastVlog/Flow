@@ -23,7 +23,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-main.css');`
 
 
-### Extras (*smaller cast/crew, etc*) (Add this below the Options)
+### Extras (*smaller cast/crew, etc*) 
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Extras.css');`
 
  - B/W Logo (credits: [RoyalxZealot](https://www.steamgriddb.com/logo/128502))
@@ -44,7 +44,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     - Blue
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Blue.css');`
         - <img src="./images/blue.png" alt="homepage-oled" width="100%"/>
-    - Darker icons/accents
+- Darker icons/accents (Add this below/after everything else):
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
    
   # Compatible with Scyfin themes:     
