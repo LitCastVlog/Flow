@@ -20,11 +20,11 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 <img src="./images/backdrop_setting.gif" alt="dashboard" width="100%"/>
 
 ### Base Theme
-`@import url('https://files.catbox.moe/r8n80m.css');`
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-main.css');`
 
 
 ### Extras (*smaller cast/crew, etc*) (Add this below the Options)
-`@import url('htps://files.catbox.moe/qkt8mp.css');`
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Extras.css');`
 
  - B/W Logo (credits: [RoyalxZealot](https://www.steamgriddb.com/logo/128502))
  - Smaller Cast/Crew section
@@ -32,23 +32,23 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 ### Options (Add these below the base theme)
 - Enable Collapsable Drawer/Menu 
-    - `@import url('https://files.catbox.moe/0ujkqv.css');`
+    - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Drawer-Toggle.css');`
 - Themes:
     - Orange
-        - `@import url('https://files.catbox.moe/1xunjc.css');`
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Orange.css');`
         - <img src="./images/orange.png" alt="homepage-oled" width="100%"/>
     - White
-        - `@import url('https://files.catbox.moe/g0m4lb.cs');`
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-White.css');`
         - <img src="./images/white.png" alt="homepage-oled" width="100%"/>
     - Blue
-        - `@import url('https://files.catbox.moe/ai6lr1.css');`
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Blue.css');`
         - <img src="./images/blue.png" alt="homepage-oled" width="100%"/>
     - Darker icons/accents
-        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-oled.css');`
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
    
   # Compatible with Scyfin themes:     
     - Seafoam
-        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-seafoam.css');`
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-seafoam.css');`
     - Coral
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-coral.css');`
     - Snow
@@ -58,9 +58,8 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 ### **Installation:**
 
-*will update catbox links with jsdelivr soon*
 ### Easy install (one liner) 
-`@import url('https://files.catbox.moe/nqmw01.css');` 
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner.css');` 
 
 *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
 * `.pageTitleWithDefaultLogo {
