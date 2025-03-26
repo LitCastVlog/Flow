@@ -1,13 +1,14 @@
-<img src="./images/logo.png" alt="homepage" width="50%"/>
-
 # **Plex-inspired theme for Jellyfin WebUI**
 ### **Built on [Scyfin](https://github.com/loof2736/scyfin/), compatible with themes**
 
+[Go to installation](#installation)
 
 Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-jelyfin)
 
 ---
 <img src="./images/screen.jpg" alt="homepage" width="100%"/>
+
+<img src="./images/details.png" alt="dashboard" width="100%"/>
 
 ### **- Outline Cards on hover**
 <img src="./images/outline_hover.gif" alt="details" width="100%"/>
@@ -15,3 +16,80 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 ### **Backdrop Support**
 <img src="./images/backdrop_setting.gif" alt="dashboard" width="100%"/>
+
+### Base Theme
+`@import url('https://files.catbox.moe/r8n80m.css');`
+
+
+### Extras (*smaller cast/crew, etc*) (Add this below the Options)
+`@import url('htps://files.catbox.moe/qkt8mp.css');`
+
+ - B/W Logo (credits: [RoyalxZealot](https://www.steamgriddb.com/logo/128502))
+ - Smaller Cast/Crew section
+ - Hide "Upcoming on TV" and "Next Up" section in Season View
+
+### Options (Add these below the base theme)
+- Enable Collapsable Drawer/Menu 
+    - `@import url('https://files.catbox.moe/0ujkqv.css');`
+- Themes:
+    - Orange
+        - `@import url('https://files.catbox.moe/1xunjc.css');`
+        - <img src="./images/orange.png" alt="homepage-oled" width="100%"/>
+    - White
+        - `@import url('https://files.catbox.moe/g0m4lb.cs');`
+        - <img src="./images/white.png" alt="homepage-oled" width="100%"/>
+    - Blue
+        - `@import url('https://files.catbox.moe/ai6lr1.css');`
+        - <img src="./images/blue.png" alt="homepage-oled" width="100%"/>
+    - Darker icons/accents
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-oled.css');`
+   
+  # Compatible with Scyfin themes:     
+    - Seafoam
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-seafoam.css');`
+    - Coral
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-coral.css');`
+    - Snow
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/scyfin-mod@latest/CSS/theme-snow.css');`
+    
+---
+
+### **Installation:**
+
+*will update catbox links with jsdelivr soon*
+### Easy install (one liner) 
+`@import url('https://files.catbox.moe/nqmw01.css');` 
+
+*if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
+* `.pageTitleWithDefaultLogo {
+    background-image: url("https://cdn2.steamgriddb.com/logo/3f44f3018ff71ff4a7d22a98f3babb55.png");
+    background-size: 50%; }`
+
+**Server-wide install:**
+* Click the hamburger icon (Top left)
+* Navigate to "Dashboard" (If you don't see this, make sure you are signed in to your admin account)
+* Navigate to "General"
+* Near the bottom, under "Custom CSS code", paste the `@import url` for the base Scyfin theme
+    * Example:
+    * <img src="./images/install-server-base.png" alt="install-server-base" width="80%"/>
+* Optional - Paste the `@import url` for any options / themes you may want
+    * Example:
+    * <img src="./images/install-server-options.png" alt="install-server-options" width="80%"/>
+* Click "Save"
+
+---
+
+
+**Single client install:**
+* Click the hamburger icon (Top left)
+* Navigate to "Settings"
+* Navigate to "Display"
+* Near the middle, under "Custom CSS code", paste the `@import url` for the base Scyfin theme
+    * Note - 
+        * If there is any server-wide custom CSS, you may want to enable "Disable server-provided custom CSS code", as the two themes WILL interfere with each other
+    * Example:
+    * <img src="./images/install-client-base.png" alt="install-client-base" width="80%"/>
+* Optional - Paste the `@import url` for any options / themes you may want
+    * Example:
+    * <img src="./images/install-client-options.png" alt="install-client-options" width="80%"/>
+* Click "Save"
