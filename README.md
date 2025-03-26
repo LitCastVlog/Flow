@@ -1,3 +1,5 @@
+<img src="./images/logo.png" alt="homepage" width="50%"/>
+
 # **Plex-inspired theme for Jellyfin WebUI**
 ### **Built on [Scyfin](https://github.com/loof2736/scyfin/), compatible with themes**
 
