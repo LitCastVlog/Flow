@@ -1,0 +1,48 @@
+/* Scyfin-mod Fork Extras*/
+/* BW Logo */
+.pageTitleWithDefaultLogo {
+    background-image: url("https://i.ibb.co/JWYbjZ4z/jp.png");
+}
+
+/* Hide Next Up */
+div.nextUpSection {
+    display: none;
+}
+
+
+/* Squared Dark/Transparent Episode indicators */
+.playedIndicator {
+    border-radius: 0 !important;
+    /* Remove rounding */
+    width: 40px;
+    /* Adjust width as needed */
+    height: 40px;
+    /* Adjust height as needed */
+    background: #00000085 !important;
+}
+
+.indicator {
+    border-radius: 0 !important;
+    /* Ensure any other indicators are also square */
+    width: 40px;
+    /* Adjust width as needed */
+    height: 40px;
+    /* Adjust height as needed */
+    background: #00000085 !important;
+}
+
+/* Smaller Cast and Crew Section */
+#castContent .card.overflowPortraitCard {
+    width: 10%;
+    /* Ensure the image takes the full width */
+}
+
+/*Hide Upcoming on TV */
+#seriesScheduleList {
+    display: none !important;
+    /* Hide the Upcoming on TV section */
+}
+#seriesScheduleSection {
+    display: none !important;
+    /* Hide the Upcoming on TV text */
+}
