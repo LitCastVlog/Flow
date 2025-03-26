@@ -44,7 +44,8 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     - Blue
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Blue.css');`
         - <img src="./images/blue.png" alt="homepage-oled" width="100%"/>
-- Darker icons/accents (Add this below/after everything else):
+
+   - Darker icons/accents (Add this below/after everything else):
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
    
   # Compatible with Scyfin themes:     
