@@ -33,6 +33,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 ### Options (Add these below the base theme)
 - Enable Collapsable Drawer/Menu 
     - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Drawer-Toggle.css');`
+      <img src="./images/drawer-toggle.gif" alt="dashboard" width="100%"/>
 - Themes:
     - Orange
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Orange.css');`
