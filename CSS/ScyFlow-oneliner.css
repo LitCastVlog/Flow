@@ -1345,7 +1345,7 @@ input:not(.mdl-slider) {
     border-color: var(--outline-color) !important;
 }
 
-/* Scyfin-mod Extras*/
+/* Scyflow extras*/
 /* BW Logo */
 .pageTitleWithDefaultLogo {
     background-image: url("https://i.ibb.co/JWYbjZ4z/jp.png");
@@ -1356,7 +1356,7 @@ div.nextUpSection {
     display: none;
 }
 
-/* Smaller Cast and Crew Section */
+/* Smaller Cast and Crew Section -bugs out on android- */
 #castContent .card.overflowPortraitCard {
     width: 10%;
     /* Ensure the image takes the full width */

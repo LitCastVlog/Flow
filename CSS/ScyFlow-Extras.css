@@ -9,28 +9,6 @@ div.nextUpSection {
     display: none;
 }
 
-
-/* Squared Dark/Transparent Episode indicators */
-.playedIndicator {
-    border-radius: 0 !important;
-    /* Remove rounding */
-    width: 40px;
-    /* Adjust width as needed */
-    height: 40px;
-    /* Adjust height as needed */
-    background: #00000085 !important;
-}
-
-.indicator {
-    border-radius: 0 !important;
-    /* Ensure any other indicators are also square */
-    width: 40px;
-    /* Adjust width as needed */
-    height: 40px;
-    /* Adjust height as needed */
-    background: #00000085 !important;
-}
-
 /* Smaller Cast and Crew Section */
 #castContent .card.overflowPortraitCard {
     width: 10%;
