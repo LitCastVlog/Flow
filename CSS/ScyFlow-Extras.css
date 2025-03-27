@@ -47,3 +47,11 @@ div.nextUpSection {
 .channelsContainer button.itemAction.guide-channelHeaderCell.selected {
     background-color: var(--primary-accent-color) !important; 
 }
+
+/* Re-position Title/Banner Image on details page */
+.layout-desktop .detailLogo,
+.layout-tv .detailLogo {
+    right: 0 !important;
+    left: 0% !important;
+    top: 23% !important;
+}
