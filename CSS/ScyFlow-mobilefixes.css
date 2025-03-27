@@ -1,0 +1,13 @@
+
+/* logo fix */
+.pageTitleWithDefaultLogo 
+{ background-image: url(https://i.ibb.co/c01rKqN/jp.png"); 
+    background-size: 50%; 
+}
+
+
+/* Smaller Cast and Crew Section */
+#castContent .card.overflowPortraitCard {
+    width: 80px;
+    /* mobile fix */
+}
