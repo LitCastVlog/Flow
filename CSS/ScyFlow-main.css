@@ -502,9 +502,6 @@ html,
 .material-icons.fast_forward::before {
     content: "\e057";
 }
-.material-icons.audiotrack::before {
-    content: "\e91f";
-}
 
 
 
