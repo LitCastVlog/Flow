@@ -63,10 +63,8 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 ### Easy install (one liner) 
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner.css');` 
 
-*if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
-* `.pageTitleWithDefaultLogo {
-    background-image: url("https://cdn2.steamgriddb.com/logo/3f44f3018ff71ff4a7d22a98f3babb55.png");
-    background-size: 50%; }`
+  - **Mobile/App fixes:** *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
+       - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-mobilefixes.css');`
 
 **Server-wide install:**
 * Click the hamburger icon (Top left)
