@@ -3,8 +3,8 @@
 .layout-desktop .detailLogo,
 .layout-tv .detailLogo {
     right: auto !important;
-    left: 2% !important;
+    left: 2% !important; /*adjust left position if needed, tested on 1080p and 4k monitors on JMP and WebUI*/
     top: 10% !important;
-    width: 800px !important; /* Set the desired width */
-    height: 300px !important
+    width: 800px !important; 
+    height: 300px !important /*adjust height if needed, tested on 1080p and 4k monitors on JMP and WebUI*/
 }
