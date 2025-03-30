@@ -30,10 +30,13 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
  - Smaller Cast/Crew section
  - Hide "Upcoming on TV" and "Next Up" section in Season View
 
-### Options (Add these below the base theme)
+### Options (Add these after/under the base theme)
 - Enable Collapsable Drawer/Menu 
     - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Drawer-Toggle.css');`
       <img src="./images/drawer-toggle.gif" alt="dashboard" width="100%"/>
+- Bigger logo (for High DPI/Jellyfn Media Player)
+    - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-HighDPIExtras.css');`
+      <img src="./images/highdpi.png" alt="dashboard" width="100%"/>      
 - Themes:
     - Orange
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Orange.css');`
@@ -45,7 +48,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Blue.css');`
         - <img src="./images/blue.png" alt="homepage-oled" width="100%"/>
 
-   - Darker icons/accents (Add this below/after everything else):
+   - Darker icons/accents (Add this after everything else):
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
    
   # Compatible with Scyfin themes:     
