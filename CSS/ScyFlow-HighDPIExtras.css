@@ -1,0 +1,10 @@
+/*High DPI Stuff*/
+/* Resize and reposition logo */
+.layout-desktop .detailLogo,
+.layout-tv .detailLogo {
+    right: auto !important;
+    left: 2% !important;
+    top: 10% !important;
+    width: 800px !important; /* Set the desired width */
+    height: 300px !important
+}
