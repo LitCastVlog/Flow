@@ -914,14 +914,20 @@ div[class=""] {
 .layout-desktop .mainDetailButtons .btnPlay::after {
     content: "Play" !important;
 }
+
 .layout-desktop .mainDetailButtons .btnPlay {
     position: relative !important;
     margin-right: -85px !important;
     padding-right: 20px !important;
     right: 110px !important;
-    background: var(--primary-accent-color)!important;
+    background: var(--primary-accent-color) !important;
     border-radius: 5px !important;
     color: var(--secondary-background-color) !important;
+    transition: filter 0.2s ease; 
+}
+
+.layout-desktop .mainDetailButtons .btnPlay:hover {
+    filter: brightness(120%); 
 }
 .layout-desktop .mainDetailButtons .detailButton {
     -webkit-flex-direction: row !important;
