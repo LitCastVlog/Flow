@@ -1,0 +1,23 @@
+/* Horizontal Scrollable Episodes (WIP)*/
+/*experimental, applies to Season/Detail view*/
+/*  Horizontal Scroller  */
+#childrenContent .itemsContainer.vertical-list {
+  display: flex !important;
+  flex-direction: row !important;
+  overflow-x: auto !important;
+  overflow-y: hidden !important;
+  white-space: nowrap !important;
+  scrollbar-width: none !important;
+}
+
+#childrenContent .listItem-largeImage {
+  min-width: 425px !important;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1) !important;
+  transition: transform 0.2s ease !important;
+}
+
+#childrenContent .listItem-largeImage:hover {
+  transform: translateY(-4px) !important;
+  z-index: 1 !important;
+}
+
