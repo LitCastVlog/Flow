@@ -1451,22 +1451,3 @@ input:not(.mdl-slider) {
 }
 
 }
-
-@-moz-document regexp("^(http|https)://.*:8096/.*") {
-/*High DPI Stuff*/
-/* Re-position logo */
-.layout-desktop .detailLogo,
-.layout-tv .detailLogo {
-    right: auto !important;
-    left: 2% !important;
-    top: 10% !important;
-    width: 800px !important; /* Set the desired width */
-    height: 300px !important
-}
-/* Hide title on details page */
-#.nameContainer {
-    display: none !important; 
-}
-
-
-}
