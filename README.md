@@ -8,16 +8,16 @@
 Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-jelyfin)
 
 ---
-<img src="./images/screen.jpg" alt="homepage" width="100%"/>
+<img src="./images/screen.jpg" width="100%"/>
 
-<img src="./images/details.png" alt="dashboard" width="100%"/>
+<img src="./images/details.png" width="100%"/>
 
 ### **Outline Cards on hover**
-<img src="./images/outline_hover.gif" alt="details" width="100%"/>
-<img src="./images/outline.gif" alt="movies" width="100%"/>
+<img src="./images/outline_hover.gif" width="100%"/>
+<img src="./images/outline.gif" width="100%"/>
 
 ### **Backdrop Support**
-<img src="./images/backdrop_setting.gif" alt="dashboard" width="100%"/>
+<img src="./images/backdrop_setting.gif" width="100%"/>
 
 ### Base Theme
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-main.css');`
@@ -33,20 +33,20 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 ### Options (Add these after/under the base theme)
 - Enable Collapsable Drawer/Menu 
     - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Drawer-Toggle.css');`
-      <img src="./images/drawer-toggle.gif" alt="dashboard" width="100%"/>
+      <img src="./images/drawer-toggle.gif" width="100%"/>
 - Bigger logo (for High DPI/Jellyfn Media Player)
     - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-HighDPIExtras.css');`
-      <img src="./images/highdpi.png" alt="dashboard" width="100%"/>      
+      <img src="./images/highdpi.png" width="100%"/>      
 - Themes:
     - Orange
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Orange.css');`
-        - <img src="./images/orange.png" alt="homepage-oled" width="100%"/>
+        - <img src="./images/orange.png" width="100%"/>
     - White
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-White.css');`
-        - <img src="./images/white.png" alt="homepage-oled" width="100%"/>
+        - <img src="./images/white.png" width="100%"/>
     - Blue
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Blue.css');`
-        - <img src="./images/blue.png" alt="homepage-oled" width="100%"/>
+        - <img src="./images/blue.png" width="100%"/>
 
    - Darker icons/accents (Add this after everything else):
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
@@ -68,6 +68,8 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
   - **Mobile/App fixes:** *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-mobilefixes.css');`
+          <img src="./images/ios.gif" width="74%"/><img src="./images/android.gif"  height="10%"/>
+
 
 **Server-wide install:**
 * Click the hamburger icon (Top left)
