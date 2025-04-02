@@ -68,7 +68,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
   - **Mobile/App fixes:** *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-mobilefixes.css');`
-          <img src="./images/ios.gif" width="70%"/><img src="./images/android.gif"  height="10%"/>
+          <img src="./images/ios.gif" width="60%"/><img src="./images/android.gif"  height="10%"/>
 
 
 **Server-wide install:**
