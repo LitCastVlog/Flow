@@ -1220,7 +1220,7 @@ div.card-hoverable.squareCard.card:hover > .cardBox-bottompadded.cardBox > .card
     right: 0;
     bottom: 0;
     background-color: rgba(31, 31, 31, 0.4);
-    z-index: 0;
+    z-index: -1;
     /* bug fix */
 }
 

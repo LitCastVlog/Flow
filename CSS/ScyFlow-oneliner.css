@@ -1220,9 +1220,7 @@ div.card-hoverable.squareCard.card:hover > .cardBox-bottompadded.cardBox > .card
     right: 0;
     bottom: 0;
     background-color: rgba(31, 31, 31, 0.4);
-    /* Dark overlay with 40% opacity */
-    z-index: 0;
-    /* Ensure overlay is above the image */
+    z-index: -1;
 }
 
 /* Additional styles for all cards */
