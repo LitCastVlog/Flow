@@ -1221,7 +1221,7 @@ div.card-hoverable.squareCard.card:hover > .cardBox-bottompadded.cardBox > .card
     bottom: 0;
     background-color: rgba(31, 31, 31, 0.4);
     /* Dark overlay with 40% opacity */
-    z-index: 1;
+    z-index: 0;
     /* Ensure overlay is above the image */
 }
 
@@ -1431,4 +1431,3 @@ div.nextUpSection {
     --primary-alt4: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
     --primary-alt5: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
 }
-
