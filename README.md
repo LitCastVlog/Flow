@@ -1,4 +1,4 @@
-<img src="./images/logo.png" alt="homepage" width="50%"/>
+<img src="./images/logo.png" width="50%"/>
 
 # **Plex-inspired theme for Jellyfin WebUI**
 ### **Built on [Scyfin](https://github.com/loof2736/scyfin/), compatible with themes**
@@ -63,12 +63,17 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 ### **Installation:**
 
-### Easy install (one liner) 
+### Easy install (one-liner) 
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner.css');` 
+
+**(Mobile/Android one-liner)**: `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner-mobile.css');` 
+
 
   - **Mobile/App fixes:** *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-mobilefixes.css');`
-          <img src="./images/ios.gif" width="60%"/><img src="./images/android.gif"  height="10%"/>
+          <img src="./images/ios.gif" width="60%"/><img src="./images/android.gif"  height="8%"/>
+- **Smaller Screen/Android fixes:** *if the indicators are too big* 
+  - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-smallscreen-fixes.css');`
 
 
 **Server-wide install:**
