@@ -997,7 +997,7 @@ div[class=""] {
         margin-bottom: 0 !important;
     }
     .layout-desktop .emby-button-foreground {
-        top: -4px !important;
+        top: -10px !important;
     }
 }
 @media (max-width: 1599px) {
