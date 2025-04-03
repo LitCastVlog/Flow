@@ -1015,7 +1015,7 @@ div[class=""] {
         align-self: center !important;
     }
     .layout-desktop .emby-button-foreground {
-        top: -10px !important;
+        top: -2px !important;
     }
 }
 
@@ -1548,3 +1548,6 @@ input:not(.mdl-slider) {
     background: #00000085 !important;
 }
 
+ .layout-desktop .emby-button-foreground {
+        top: -10px !important;
+}

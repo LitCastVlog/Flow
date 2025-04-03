@@ -1277,3 +1277,7 @@ a.emby-button.homeLibraryButton.raised:hover::before {
     /* Ensure overlay is above the button */
     transition: background-color 0.1s ease;
 }
+
+ .layout-desktop .emby-button-foreground {
+        top: -10px !important;
+}
