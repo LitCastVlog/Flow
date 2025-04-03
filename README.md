@@ -69,9 +69,9 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 **(Mobile/Android one-liner)**: `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner-mobile.css');` 
 
 
-  - **Mobile/App fixes:** *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
-       - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-mobilefixes.css');`
-          <img src="./images/ios.gif" width="60%"/><img src="./images/android.gif"  height="8%"/>
+ <img src="./images/ios.gif" width="60%"/><img src="./images/android.gif"  height="8%"/>
+- **Mobile/App fixes:** *if the logo is too big or doesn't apply (iOS, Android), append this line as well (per client)* 
+  - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-mobilefixes.css');`
 - **Smaller Screen/Android fixes:** *if the indicators are too big* 
   - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-smallscreen-fixes.css');`
 
