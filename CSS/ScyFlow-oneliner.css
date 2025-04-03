@@ -1015,7 +1015,7 @@ div[class=""] {
         align-self: center !important;
     }
     .layout-desktop .emby-button-foreground {
-        top: -2px !important;
+        top: -10px !important;
     }
 }
 
