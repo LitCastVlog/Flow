@@ -1,15 +1,15 @@
 /*Scyflow-main*/
 /* Variables */
 :root {
-    --primary-r: 0;  
-    --primary-g: 153;  
-    --primary-b: 255; 
-    --primary-accent-color: #0099ff;  
-    --secondary-accent-color: #00354c; 
-    --primary-background-color: #101010; 
-    --secondary-background-color: #181818; 
-    --primary-background-transparent: rgba(0, 153, 255, 0.1); 
-    --secondary-background-transparent: rgba(0, 153, 255, 0.2);
+        --primary-r: 255;
+    --primary-g: 165;
+    --primary-b: 0;
+    --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
+    --secondary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.1); 
+    --primary-background-color: #101010;
+    --secondary-background-color: #181818;
+    --primary-background-transparent: rgba(35, 35, 35, 0.5);
+    --secondary-background-transparent: rgba(0, 0, 0, 0.6);
     --rounded-cards: 5px;
     --blur: 2px;
     --alt-accent-color: #ffffff20;
