@@ -1273,89 +1273,8 @@ a.emby-button.homeLibraryButton.raised:hover::before {
     background-color: rgba(31, 31, 31, 0.2);
     /* Dark overlay with 20% opacity */
     z-index: 1;
-    /* Ensure overlay is above the button */
     transition: background-color 0.1s ease;
 }
-
-/* Scyflow extras*/
-/* BW Logo */
-.pageTitleWithDefaultLogo {
-    background-image: url("https://i.ibb.co/JWYbjZ4z/jp.png");
-}
-
-/* Hide Next Up */
-div.nextUpSection {
-    display: none;
-}
-
-/* Smaller Cast and Crew Section -bugs out on android- */
-#castContent .card.overflowPortraitCard {
-    width: 10%;
-    /* Ensure the image takes the full width */
-}
-
-/*Hide Upcoming on TV */
-#seriesScheduleList {
-    display: none !important;
-    /* Hide the Upcoming on TV section */
-}
-#seriesScheduleSection {
-    display: none !important;
-    /* Hide the Upcoming on TV text */
-}
-
-/*TV Guide extras*/
-.lazy-image-fadein-fast.non-blurhashable.lazy.guideChannelImage {
-    transition: filter 0.1s ease;
-    z-index: 1;
-}
-
-.lazy-image-fadein-fast.non-blurhashable.lazy.guideChannelImage:hover {
-    filter: drop-shadow(0 0 6px #676767); 
-}
-
-.programCell-active.itemAction.programCell:hover .guideProgramName > .guideProgramNameText {
-    transition: text-shadow 0.2s ease; 
-    text-shadow: 
-        0 0 2px var(--primary-accent-color); 
-}
-
-.channelsContainer button.itemAction.guide-channelHeaderCell:hover {
-    background-color: var(--primary-accent-color) !important; 
-}
-.channelsContainer button.itemAction.guide-channelHeaderCell.selected {
-    background-color: var(--primary-accent-color) !important; 
-}
-
-/* Re-position Title/Banner Image on details page */
-.layout-desktop .detailLogo,
-.layout-tv .detailLogo {
-    right: 0 !important;
-    left: 0% !important;
-    top: 23% !important;
-}
-
-
-/* Orange Theme*/
-:root {
-    --primary-r: 255;
-    --primary-g: 165;
-    --primary-b: 0;
-    --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
-    --secondary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.1); 
-    --primary-background-color: #101010;
-    --secondary-background-color: #181818;
-    --primary-background-transparent: rgba(35, 35, 35, 0.5);
-    --secondary-background-transparent: rgba(0, 0, 0, 0.6);
-
-    /* Alternate accents*/
-    --primary-alt1: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 1);
-    --primary-alt2: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.85);
-    --primary-alt3: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.7);
-    --primary-alt4: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
-    --primary-alt5: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
-}
-
 
 /*OLED/Dark mode*/
 /* Variables */
@@ -1428,4 +1347,84 @@ input:not(.mdl-slider) {
 }
 .checkboxOutline {
     border-color: var(--outline-color) !important;
+}
+
+/* Scyflow extras*/
+/* BW Logo */
+.pageTitleWithDefaultLogo {
+    background-image: url("https://i.ibb.co/JWYbjZ4z/jp.png");
+}
+
+/* Hide Next Up */
+div.nextUpSection {
+    display: none;
+}
+
+/* Smaller Cast and Crew Section -bugs out on android- */
+#castContent .card.overflowPortraitCard {
+    width: 10%;
+    /* Ensure the image takes the full width */
+}
+
+/*Hide Upcoming on TV */
+#seriesScheduleList {
+    display: none !important;
+    /* Hide the Upcoming on TV section */
+}
+#seriesScheduleSection {
+    display: none !important;
+    /* Hide the Upcoming on TV text */
+}
+
+/*TV Guide extras*/
+.lazy-image-fadein-fast.non-blurhashable.lazy.guideChannelImage {
+    transition: filter 0.1s ease;
+    z-index: 1;
+}
+
+.lazy-image-fadein-fast.non-blurhashable.lazy.guideChannelImage:hover {
+    filter: drop-shadow(0 0 6px #676767); 
+}
+
+.programCell-active.itemAction.programCell:hover .guideProgramName > .guideProgramNameText {
+    transition: text-shadow 0.2s ease; 
+    text-shadow: 
+        0 0 2px var(--primary-accent-color); 
+}
+
+.channelsContainer button.itemAction.guide-channelHeaderCell:hover {
+    background-color: var(--primary-accent-color) !important; 
+}
+.channelsContainer button.itemAction.guide-channelHeaderCell.selected {
+    background-color: var(--primary-accent-color) !important; 
+}
+
+/* Re-position Title/Banner Image on details page */
+.layout-desktop .detailLogo,
+.layout-tv .detailLogo {
+    right: 0 !important;
+    left: 0% !important;
+    top: 23% !important;
+}
+
+/* Default (Blue) Theme*/
+:root {
+      --primary-r: 0; 
+    --primary-g: 153; 
+    --primary-b: 255; 
+    --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
+    --secondary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.2);
+    --primary-background-color: #101010;
+    --secondary-background-color: #181818; 
+    --primary-background-transparent: rgba(0, 153, 255, 0.1); 
+    --secondary-background-transparent: rgba(0, 153, 255, 0.2); 
+    --alt-accent-color: #ffffff20;
+    --alt-accent-color-nontsp: #ffffffe0
+
+    /* Alternate accents*/
+    --primary-alt1: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 1);
+    --primary-alt2: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.85);
+    --primary-alt3: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.7);
+    --primary-alt4: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
+    --primary-alt5: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
 }
