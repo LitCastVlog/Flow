@@ -1,14 +1,14 @@
 /* ==UserStyle==
 @name         Flow for Jelyfin
-@version      20250326.04.44
+@version      20250401.04.01
 @namespace    https://userstyles.world/user/LitCastVlog
 @description  Plex-inspired theme for Jellyfin's WebUI (Based on Scyfin)
 @author       LitCastVlog
 @license      GPL v3
 ==/UserStyle== */
 
-@-moz-document regexp("^(http|https)://.*:8096/.*") {
-/*Scyflow main*/
+@-moz-document regexp(".*:8096/.*") {
+/*Scyflow-main*/
 /* Variables */
 :root {
     --primary-r: 0;  
@@ -164,31 +164,6 @@ progress::-webkit-progress-value {
 .layout-desktop #myPreferencesMenuPage .listItem:hover {
     transform: scale(1.015);
 }
-
-
-.transcodingProgress > div {
-    background-color: hsla(0,0%,100%,.2) !important;
-}
-.activeSession .backgroundProgress,
-.activeSession .playbackProgress,
-.activeSession .transcodingProgress {
-    bottom: 10px !important;
-    border-radius: 100px !important;
-    width: 90% !important;
-    left: 5% !important;
-}
-.sessionNowPlayingInnerContent {
-    padding-bottom: 12px !important;
-    padding-inline: 17px !important;
-}
-.sessionAppInfo {
-    padding: .5em 0em !important;
-}
-.sessionNowPlayingInfo {
-    padding: .8em 0em !important;
-}
-
-
 
 /*  watched indicator */
 .playedIndicator {
@@ -540,7 +515,6 @@ html,
 
 
 
-
 /* Settings and dashboard modifications */
 .emby-input,
 .emby-textarea,
@@ -764,7 +738,7 @@ div[class=""] {
 
 /* Resize show/movie image on details page */
 .layout-desktop .detailImageContainer .card {
-  top: calc(9em - 0px) !important; 
+    top: 9em !important;
     width: 18.3vw !important;
 }
 
@@ -963,7 +937,7 @@ div[class=""] {
 }
 
 .layout-desktop .mainDetailButtons .btnPlay:hover {
-    filter: brightness(115%); 
+    filter: brightness(120%); 
 }
 .layout-desktop .mainDetailButtons .detailButton {
     -webkit-flex-direction: row !important;
@@ -1033,7 +1007,7 @@ div[class=""] {
         margin-bottom: 0 !important;
     }
     .layout-desktop .emby-button-foreground {
-        top: -10px !important;
+        top: -4px !important;
     }
 }
 @media (max-width: 1599px) {
@@ -1201,9 +1175,13 @@ div[class=""] {
 /* Adjust header tabs for the dark header */
 .layout-desktop .headerTabs {
     background: rgba(0, 0, 0, 0.2) !important;
+    /* Dark background for tabs */
     border-radius: 5px !important;
+    /* Smaller border radius for tabs */
     height: 50px !important;
+    /* Set a specific height for the tabs */
     font-size: 18px !important;
+    /* Adjust font size for smaller text */
 }
 
 /*Guide button accents*/
@@ -1240,7 +1218,9 @@ div.card-withuserdata.card-hoverable.card:hover > .cardBox-bottompadded.cardBox 
 div.groupedCard.card-hoverable.overflowSquareCard.card:hover > .cardBox-bottompadded.cardBox > .cardScalable,
 div.card-hoverable.squareCard.card:hover > .cardBox-bottompadded.cardBox > .cardScalable {
     border: 2px solid var(--primary-accent-color) !important;
+    /* Outline with primary accent color */
     box-shadow: 0 0 3px rgba(255, 255, 255, .5) !important;
+    /* Shadow for emphasis */
 }
 
 /* Dim image on hover for all portrait, square, and music page square cards */
@@ -1262,29 +1242,38 @@ div.card-withuserdata.card-hoverable.card,
 div.groupedCard.card-hoverable.overflowSquareCard.card,
 div.card-hoverable.squareCard.card {
     position: relative;
+    /* Ensure positioning for child elements */
 }
 
 
 /* Styles for all home library buttons */
 a.emby-button.homeLibraryButton.raised {
     position: relative;
+    /* Ensure positioning for the overlay */
     transition: background-color 0.3s ease, border 0.3s ease, box-shadow 0.3s ease;
- 
+    /* Smooth transition */
 }
 
 /* Styles for all home library buttons */
 a.emby-button.homeLibraryButton.raised {
     position: relative;
+    /* Ensure positioning for the overlay */
     box-sizing: border-box;
+    /* Include padding and border in the element's total width and height */
     border: 2px solid transparent;
+    /* Set a transparent border by default */
     transition: background-color 0.3s ease, border-color 0.3s ease, box-shadow 0.3s ease;
+    /* Smooth transition */
 }
 
 /* Styles for hover effect */
 a.emby-button.homeLibraryButton.raised:hover {
     border-color: var(--primary-accent-color) !important;
+    /* Change border color on hover */
     box-shadow: var(--primary-accent-color) !important;
+    /* Shadow for emphasis */
     background-color: rgba(255, 255, 255, 0.1) !important;
+    /* Light background on hover */
 }
 
 /* Dim effect for the button when hovered */
@@ -1296,22 +1285,18 @@ a.emby-button.homeLibraryButton.raised:hover::before {
     right: 0;
     bottom: 0;
     background-color: rgba(31, 31, 31, 0.2);
+    /* Dark overlay with 20% opacity */
     z-index: 1;
     transition: background-color 0.1s ease;
 }
-
-
-
+}
+@-moz-document regexp(".*:8096/.*") {
+    /*insert disable static drawer*/
 
 }
 
-@-moz-document regexp("^(http|https)://.*:8096/.*") {
-/*insert disable static drawer*/
-
-}
-
-@-moz-document regexp("^(http|https)://.*:8096/.*") {
-/* Scyfin-mod Fork Extras*/
+@-moz-document regexp(".*:8096/.*") {
+/* ScyFlow Extras*/
 /* BW Logo */
 .pageTitleWithDefaultLogo {
     background-image: url("https://i.ibb.co/JWYbjZ4z/jp.png");
@@ -1369,8 +1354,7 @@ div.nextUpSection {
 }
 }
 
-@-moz-document regexp("^(http|https)://.*:8096/.*") {
-
+@-moz-document regexp(".*:8096/.*") {
 /* Orange Theme*/
 :root {
     --primary-r: 255;
@@ -1386,7 +1370,7 @@ div.nextUpSection {
 
 }
 
-@-moz-document regexp("^(http|https)://.*:8096/.*") {
+@-moz-document regexp(".*:8096/.*") {
 /*OLED/Dark mode/High Contrast*/
 /* Variables */
 :root {
@@ -1461,3 +1445,4 @@ input:not(.mdl-slider) {
 }
 
 }
+

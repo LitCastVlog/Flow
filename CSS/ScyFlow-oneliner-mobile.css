@@ -1533,7 +1533,7 @@ input:not(.mdl-slider) {
     font-size: 10px !important;
 }
 
-/* Smaller Squared Dark/Transparent Episode indicators for Android */
+/* Smaller Squared Dark/Transparent Episode, Version indicators for Android */
 .playedIndicator {
     border-radius: 0 !important;
     width: 30px;
@@ -1550,4 +1550,14 @@ input:not(.mdl-slider) {
 
  .layout-desktop .emby-button-foreground {
         top: -10px !important;
+}
+
+.lazy-image-fadein-fast.non-blurhashable.lazy.itemAction.listItemImage-large.listItemImage > .mediaSourceIndicator {
+    border-radius: 0 !important;
+    background: #00000085 !important;
+}
+
+.mediaSourceIndicator {
+    border-radius: 0 !important;
+    background: #00000085 !important;
 }
