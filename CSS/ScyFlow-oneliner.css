@@ -1178,24 +1178,28 @@ div[class=""] {
 .emby-button[data-index="0"] > .emby-button-foreground {
     color: var(--primary-accent-color) !important;
 }
-/* Squared Dark/Transparent Episode indicators */
+/* Squared Dark/Transparent Episode and Version indicators */
 .playedIndicator {
     border-radius: 0 !important;
-    /* Remove rounding */
     width: 40px;
-    /* Adjust width as needed */
     height: 40px;
-    /* Adjust height as needed */
     background: #00000085 !important;
 }
 
 .indicator {
     border-radius: 0 !important;
-    /* Ensure any other indicators are also square */
     width: 40px;
-    /* Adjust width as needed */
     height: 40px;
-    /* Adjust height as needed */
+    background: #00000085 !important;
+}
+
+.lazy-image-fadein-fast.non-blurhashable.lazy.itemAction.listItemImage-large.listItemImage > .mediaSourceIndicator {
+    border-radius: 0 !important;
+    background: #00000085 !important;
+}
+
+.mediaSourceIndicator {
+    border-radius: 0 !important;
     background: #00000085 !important;
 }
 

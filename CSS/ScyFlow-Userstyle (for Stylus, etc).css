@@ -1033,7 +1033,7 @@ div[class=""] {
         margin-bottom: 0 !important;
     }
     .layout-desktop .emby-button-foreground {
-        top: -4px !important;
+        top: -10px !important;
     }
 }
 @media (max-width: 1599px) {
@@ -1210,7 +1210,7 @@ div[class=""] {
 .emby-button[data-index="0"] > .emby-button-foreground {
     color: var(--primary-accent-color) !important;
 }
-/* Squared Dark/Transparent Episode indicators */
+/* Squared Dark/Transparent Episode and Version indicators */
 .playedIndicator {
     border-radius: 0 !important;
     width: 40px;
@@ -1222,6 +1222,16 @@ div[class=""] {
     border-radius: 0 !important;
     width: 40px;
     height: 40px;
+    background: #00000085 !important;
+}
+
+.lazy-image-fadein-fast.non-blurhashable.lazy.itemAction.listItemImage-large.listItemImage > .mediaSourceIndicator {
+    border-radius: 0 !important;
+    background: #00000085 !important;
+}
+
+.mediaSourceIndicator {
+    border-radius: 0 !important;
     background: #00000085 !important;
 }
 

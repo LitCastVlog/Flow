@@ -35,3 +35,13 @@
     height: 30px;
     background: #00000085 !important;
 }
+
+.lazy-image-fadein-fast.non-blurhashable.lazy.itemAction.listItemImage-large.listItemImage > .mediaSourceIndicator {
+    border-radius: 0 !important;
+    background: #00000085 !important;
+}
+
+.mediaSourceIndicator {
+    border-radius: 0 !important;
+    background: #00000085 !important;
+}
