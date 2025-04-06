@@ -20,3 +20,11 @@
     font-size: 10px !important;
 }
 
+/* Resize and reposition Banner logo for iOS/Safari */
+.detailLogo {
+    right: auto !important;
+    left: 4% !important; 
+    width: 500px  !important; 
+    height: 150px !important 
+}
+/*adjust if needed, tested at 2160p on iPad Safari iOS (WebUI, desktop mode)*/
