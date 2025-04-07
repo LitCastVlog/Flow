@@ -1184,10 +1184,15 @@ div[class=""] {
     /* Adjust font size for smaller text */
 }
 
-/*Guide button accents*/
-.emby-button[data-index="0"] > .emby-button-foreground {
-    color: var(--primary-accent-color) !important;
+/* Inactive Header text color */
+.emby-button > .emby-button-foreground {
+    color: grey;
 }
+/* Active Header text color */
+.emby-tab-button-active > .emby-button-foreground {
+    color: var(--primary-accent-color); 
+}
+
 /* Squared Dark/Transparent Episode and Version indicators */
 .playedIndicator {
     border-radius: 0 !important;
