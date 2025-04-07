@@ -21,6 +21,7 @@
     --primary-alt3: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.7);
     --primary-alt4: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
     --primary-alt5: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
+    --primary-alt6: rgb(calc(var(--primary-r) + 30), calc(var(--primary-g) + 30), calc(var(--primary-b) + 60), 1);
 }
 
 /* Setting accent color variable */
@@ -1181,6 +1182,10 @@ div[class=""] {
 /* Active Header text color */
 .emby-tab-button-active > .emby-button-foreground {
     color: var(--primary-accent-color); 
+}
+/* Hover effect for Header tabs */
+.emby-button:hover > .emby-button-foreground {
+    color: var(--primary-alt6);
 }
 
 /* Squared Dark/Transparent Episode and Version indicators */
