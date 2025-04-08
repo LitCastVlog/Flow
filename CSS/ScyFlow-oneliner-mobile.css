@@ -1178,10 +1178,12 @@ div[class=""] {
 /* Inactive Header text color */
 .emby-button > .emby-button-foreground {
     color: grey;
+    transition: color 0.2s ease
 }
 /* Active Header text color */
 .emby-tab-button-active > .emby-button-foreground {
     color: var(--primary-accent-color); 
+    transition: color 0.2s ease   
 }
 /* Hover effect for Header tabs */
 .emby-button:hover > .emby-button-foreground {
