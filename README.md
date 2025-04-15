@@ -38,7 +38,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-HighDPIExtras.css');`
       <img src="./images/highdpi.png" width="100%"/>
 - Episode Grid (from [Ultrachromic](https://github.com/CTalvio/Ultrachromic))
-- `@import url('https://cdn.statically.io/gh/CTalvio/Ultrachromic/main/episodelist/episodes_grid.css');`
+- `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-EpisodeGrid.css');`
       <img src="./images/episodegrid_uc.png" width="100%"/>      
 - Themes:
     - Orange
