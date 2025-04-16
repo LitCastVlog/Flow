@@ -1318,10 +1318,12 @@ div.nextUpSection {
     display: none;
 }
 
-/* Smaller Cast and Crew Section */
+/* Smaller Cast/Crew/Guest Section */
 #castContent .card.overflowPortraitCard {
     width: 10%;
-    /* Ensure the image takes the full width */
+}
+#guestCastCollapsible .card.overflowPortraitCard {
+    width: 10%;
 }
 
 /*Hide Upcoming on TV */
