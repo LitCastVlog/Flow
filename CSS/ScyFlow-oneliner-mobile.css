@@ -1531,10 +1531,12 @@ input:not(.mdl-slider) {
 }
 
 
-/* Smaller Cast and Crew Section */
+/* Smaller Cast/Crew/Guest Section */
 #castContent .card.overflowPortraitCard {
-    width: 80px;
-    /* android/small screen fix */
+    width: 10%;
+}
+#guestCastCollapsible .card.overflowPortraitCard {
+    width: 10%;
 }
 
 /* header size fix */
