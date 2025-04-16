@@ -6,10 +6,12 @@
 }
 
 
-/* Smaller Cast and Crew Section */
+/* Smaller Cast/Crew/Guest Section */
 #castContent .card.overflowPortraitCard {
     width: 80px;
-    /* mobile fix */
+}
+#guestCastCollapsible .card.overflowPortraitCard {
+    width: 80px;
 }
 
 /* header size fix */
