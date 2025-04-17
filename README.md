@@ -1,7 +1,7 @@
 <img src="./images/logo.png" width="50%"/>
 
 # **Plex-inspired theme for Jellyfin WebUI**
-### **Built on [Scyfin](https://github.com/loof2736/scyfin/), compatible with themes**
+### **Built on [Scyfin](https://github.com/loof2736/scyfin/), [Ultrachromic](https://github.com/CTalvio/Ultrachromic)**
 
 [Go to installation](#installation)
 
@@ -64,7 +64,13 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css');`
     - Snow
         - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css');`
-    
+  # Experimental (Works in progress, buggy)
+    - Horizontal-Scroll Episodes
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Scrollable-Episodes-WIP.css');`
+        - <img src="./images/sidescroll-episodes-wip.gif" width="100%"/>
+    - Horizontal-Scroll Episodes (alt, contorls overlayed)
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Scrollable-Episodes-ALT.css');`
+        - <img src="./images/sidescroll-episodes-alt.gif" width="100%"/>  
 ---
 
 ### **Installation:**
