@@ -200,7 +200,7 @@
     background-color: rgba(0, 0, 0, 0)!important;
 }
 
-/* Dim effect for the thumbnail when hovered */
+/* Dim effect for the thumbnail on hover */
 .lazy-image-fadein-fast.non-blurhashable.lazy.itemAction.listItemImage-large.listItemImage:hover::before {
     content: "";
     position: absolute;
@@ -208,7 +208,13 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background-color: rgba(24, 24, 24, .41);
+    background-color: rgba(10, 10, 10, .5);
     z-index: -2;
     transition: background-color 0.1s ease;
+}
+
+/* Prevent play button from enlarging on hover */
+.play_arrow.listItemImageButton-icon.material-icons:hover,
+.paper-icon-button-light.itemAction.listItemImageButton:hover {
+    transform: scale(1); 
 }
