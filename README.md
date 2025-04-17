@@ -64,7 +64,10 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css');`
     - Snow
         - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css');`
-  # Experimental (Works in progress, buggy)
+  # Experimental (Works in progress)
+    - Episode Grid Outline/Dim on hover
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-EpisodeGrid-outline.css');`
+        - <img src="./images/episodegrid-outline.gif" width="100%"/>
     - Horizontal-Scroll Episodes
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Scrollable-Episodes-WIP.css');`
         - <img src="./images/sidescroll-episodes-wip.gif" width="100%"/>
