@@ -218,3 +218,21 @@
 .paper-icon-button-light.itemAction.listItemImageButton:hover {
     transform: scale(1); 
 }
+
+
+/* EXPERIMENTAL clickable episode titles */
+/* expand info button to epsode description body and hide info button icon * 
+button.paper-icon-button-light.itemAction.listItemButton:nth-of-type(1) { 
+    position: absolute;
+    top: 12em; 
+    left: 10px; 
+    opacity: 0.0;
+    width: 95%; 
+    height: 40%; 
+    z-index: 1; 
+    border-radius: 0; 
+}
+.listItemButton .info_outline.material-icons {
+    display: none;
+} 
+*/
