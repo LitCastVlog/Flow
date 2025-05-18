@@ -227,11 +227,11 @@
     opacity: 1;
         
 }
-/* Prevent play button from enlarging */
+/* Prevent play button from enlarging on hover */
 .play_arrow.listItemImageButton-icon.material-icons:hover,
 .paper-icon-button-light.itemAction.listItemImageButton:hover {
     transform: scale(1); 
-
+}
 
 /* EXPERIMENTAL clickable episode titles */
 /* expand info button to epsode description body and hide info button icon * 
