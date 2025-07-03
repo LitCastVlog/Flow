@@ -1,0 +1,25 @@
+/*Light Animated BG Overlay*/
+ .skinBody.mainAnimatedPages::before  {
+    content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://i.ibb.co/qYYG33T6/abg.gif');
+    background-size: auto;
+    opacity: 0.02; 
+}
+
+/*Animated BG Overlay on Live TV Page*/
+#liveTvSuggestedPage::before {
+   content: '';
+    position: fixed; 
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: url('https://i.ibb.co/qYYG33T6/abg.gif');
+    background-size: auto;
+    opacity: 0.1; 
+}
