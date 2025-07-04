@@ -1,5 +1,5 @@
-/*Light Animated BG Overlay*/
- .skinBody.mainAnimatedPages::before  {
+/*Subtle Animated BG Overlay*/
+  .backgroundContainer.withBackdrop::before {
     content: '';
     position: fixed; 
     top: 0;
