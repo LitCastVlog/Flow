@@ -1,0 +1,20 @@
+/* Pink Theme*/
+:root {
+    --primary-r: 254;
+    --primary-g: 104;
+    --primary-b: 253;
+    --primary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 1.0);
+    --secondary-accent-color: rgba(var(--primary-r), var(--primary-g), var(--primary-b), 0.1); 
+    --primary-background-color: #101010;
+    --secondary-background-color: #181818;
+    --primary-background-transparent: rgba(35, 35, 35, 0.5);
+    --secondary-background-transparent: rgba(0, 0, 0, 0.6);
+
+
+    /* Alternate accents*/
+    --primary-alt1: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 1);
+    --primary-alt2: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.85);
+    --primary-alt3: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.7);
+    --primary-alt4: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.55);
+    --primary-alt5: rgb(calc(var(--primary-r) - 30), calc(var(--primary-g) - 30), calc(var(--primary-b) - 30), 0.4);
+}
