@@ -1,0 +1,34 @@
+/* Rainbow Theme (Animated) */
+:root {
+    --hue: 298; 
+    --saturation: 98%;
+    --lightness: 70%; 
+    --primary-accent-color: hsl(var(--hue), var(--saturation), var(--lightness));
+    --secondary-accent-color: hsla(var(--hue), var(--saturation), var(--lightness), 0.1);
+    --primary-background-color: #101010;
+    --secondary-background-color: #181818;
+    --primary-background-transparent: rgba(35, 35, 35, 0.5);
+    --secondary-background-transparent: rgba(0, 0, 0, 0.6);
+
+    /* Alternate accents */
+    --primary-alt1: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 15%));
+    --primary-alt2: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 20%));
+    --primary-alt3: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 25%));
+    --primary-alt4: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 30%));
+    --primary-alt5: hsl(calc(var(--hue) - 30), var(--saturation), calc(var(--lightness) - 35%));
+}
+
+@keyframes spin-hue {
+    from { --hue: 298; } 
+    to { --hue: 658; } 
+}
+
+:root {
+    animation: spin-hue 10s linear infinite;
+}
+
+@property --hue {
+    syntax: '<number>';
+    inherits: false;
+    initial-value: 298;
+}
