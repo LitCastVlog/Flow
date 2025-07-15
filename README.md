@@ -47,6 +47,9 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     - Orange
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Orange.css');`
         - <img src="./images/orange.png" width="100%"/>
+    - Pink
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Pink.css');`
+        - <img src="./images/pink.png" width="100%"/>
     - White
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-White.css');`
         - <img src="./images/white.png" width="100%"/>
@@ -59,7 +62,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
    - Darker icons/accents (Add this after everything else):
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css');`
    
-  # Compatible with Scyfin themes:     
+  # Compatible with Scyfin/Ultrachromic themes:     
     - Seafoam
         - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-seafoam.css');`
     - Coral
