@@ -1,0 +1,83 @@
+/* Nyan Cat Progress Bar for Jellyfin */
+
+/* Buffer Background */
+.mdl-slider-background-flex-container .mdl-slider-background-upper {
+    background: url("https://i.ibb.co/Kj9ZB0xX/bufferbg.gif") 
+	repeat-x !important;
+}
+
+/* Hide default slider */
+.mdl-slider::-webkit-slider-thumb {
+    -webkit-appearance: none !important;
+    width: 40px !important;
+    height: 21px !important;
+    background: transparent !important;
+    border: none !important;
+}
+
+/* Nyan Cat Slider */
+.mdl-slider::-webkit-slider-thumb {
+    background: url("https://i.ibb.co/YB0JXGGP/osdmarker.gif") 
+	no-repeat center center !important;
+    background-size: contain !important;
+}
+
+.mdl-slider::-moz-range-thumb {
+    width: 40px !important;
+    height: 21px !important;
+    background: url("https://i.ibb.co/YB0JXGGP/osdmarker.gif") 
+	no-repeat center center !important;
+    background-size: contain !important;
+    border: none !important;
+}
+.sliderContainer {
+    min-height: 21px !important;
+}
+.mdl-slider:hover::-webkit-slider-thumb,
+.mdl-slider:active::-webkit-slider-thumb,
+.mdl-slider:focus::-webkit-slider-thumb {
+    background: url("https://i.ibb.co/YB0JXGGP/osdmarker.gif") no-repeat center center !important;
+    background-size: contain !important;
+    transform: none !important;
+    border: none !important;
+    box-shadow: none !important;
+}
+/* Rainbow Progress */
+.mdl-slider-background-lower {
+    background: url("https://i.ibb.co/4nmbGCgP/progressbg.png") 
+	repeat-x !important;
+}
+
+
+/* optional, apply to Cards/Home Screen */ 
+/*
+ 
+.itemProgressBar {
+    position: relative;
+    height: 15px;
+    overflow: visible;  
+}
+
+
+
+.itemProgressBarForeground::after {
+    content: "";
+    position: absolute;
+    right: -30px;
+    top: -4px;
+    width: 40px;
+    height: 150px;
+    background: url("https://i.ibb.co/YB0JXGGP/osdmarker.gif")  
+    no-repeat !important;
+    z-index: 10;
+}
+
+
+.itemProgressBarForeground::before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background: url("https://i.ibb.co/Kj9ZB0xX/bufferbg.gif")
+} 
+*/
