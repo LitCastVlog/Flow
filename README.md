@@ -50,6 +50,9 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     - Pink
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Pink.css');`
         - <img src="./images/pink.png" width="100%"/>
+    - Rainbow
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Rainbow.css');`
+        - <img src="./images/rainbow.gif" width="100%"/>
     - Red
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Red.css');`
         - <img src="./images/red.png" width="100%"/>
@@ -82,7 +85,10 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - <img src="./images/sidescroll-episodes-alt.gif" width="100%"/>
     - Animated Overlay (on Backdrops and Live TV section)
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-AnimatedOverlay.css');`
-        - <img src="./images/animatedoverlayprev.gif" width="100%"/>  
+        - <img src="./images/animatedoverlayprev.gif" width="100%"/>
+   - Nyan Progress Bar
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/NyanProgress.css');`
+        - <img src="./images/nyanprogress.gif" width="100%"/>  
 ---
 
 ### **Installation:**
