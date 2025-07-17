@@ -1,0 +1,23 @@
+
+/* Rainbow Animated Background (USE WITH BACKDROPS DISABLED) */
+
+body {
+    background: 
+        linear-gradient(
+            124deg,
+            #ff0000, #ff7f00, #ffff00, #00ff00,
+            #0000ff, #4b0082, #9400d3, #ff0000
+        );
+    background-size: 1800% 1800%;
+    animation: rainbow 18s ease infinite;
+    background-attachment: fixed;
+	
+}
+
+@keyframes rainbow { 
+    0% {background-position: 0% 50%}
+    50% {background-position: 100% 50%}
+    100% {background-position: 0% 50%}
+    
+}
+

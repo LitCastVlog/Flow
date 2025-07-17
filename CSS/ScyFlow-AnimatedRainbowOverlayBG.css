@@ -1,0 +1,26 @@
+/* Rainbow BG Overlay */
+.backgroundContainer.withBackdrop::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    
+    /* Rainbow gradient animation */
+    background: linear-gradient(
+        124deg,
+        #ff0000, #ff7f00, #ffff00, #00ff00,
+        #0000ff, #4b0082, #9400d3, #ff0000
+    );
+    background-size: 1800% 1800%;
+    animation: rainbow 18s ease infinite;
+    opacity: 0.03;
+    z-index: -2;
+}
+
+@keyframes rainbow {
+    0% { background-position: 0% 50% }
+    50% { background-position: 100% 50% }
+    100% { background-position: 0% 50% }
+}
