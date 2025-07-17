@@ -1,7 +1,7 @@
 
 /* Rainbow Animated Background (USE WITH BACKDROPS DISABLED) */
 
-body {
+.backgroundContainer {
     background: 
         linear-gradient(
             124deg,
@@ -11,6 +11,7 @@ body {
     background-size: 1800% 1800%;
     animation: rainbow 18s ease infinite;
     background-attachment: fixed;
+    opacity: 10%
 	
 }
 
