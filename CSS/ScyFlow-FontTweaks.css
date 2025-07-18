@@ -20,8 +20,8 @@ div.card-withuserdata.card-hoverable.portraitCard.card {
 .cardIndicators, .listItemIndicators {
   right: 0 !important;
   top: 0 !important;
-  height: 40px !important;  
-  width: 40px !important;  
+  height: 35px !important;  
+  width: 35px !important;  
 }
 .playedIndicator {
   background-color: rgba(0, 0, 0, 0.7) !important; 
