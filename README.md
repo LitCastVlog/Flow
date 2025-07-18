@@ -88,7 +88,10 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - <img src="./images/animatedoverlayprev.gif" width="100%"/>
    - Nyan Progress Bar
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/NyanProgress.css');`
-        - <img src="./images/nyanprogress.gif" width="100%"/>  
+        - <img src="./images/nyanprogress.gif" width="100%"/>
+   - Left-Aligned Font/ Poster Spacing / Corner Indicators
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-FontTweaks.css');`
+        - <img src="./images/FontTweaks.png" width="100%"/>
 ---
 
 ### **Installation:**
