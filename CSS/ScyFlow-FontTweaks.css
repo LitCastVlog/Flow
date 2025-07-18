@@ -1,0 +1,33 @@
+/* Addl. tweaks */
+
+/* Left-Align Text / Change Font */
+.cardText-first.cardTextCentered.cardText,
+.cardText-secondary.cardTextCentered.cardText {
+    text-align: left !important;
+    font-size: 16px !important;
+    font-family: "Segoe UI", "Segoe", "SegoeUI-Regular-final", sans-serif !important;
+    font-weight: 500 !important;
+}
+
+/* Poster Spacing */
+div.card-withuserdata.card-hoverable.portraitCard.card {
+    padding-left: 0px !important;
+    padding-right: 5px !important;
+    
+}
+
+/* Corner indicators (modified from Ultrachromic) */
+.cardIndicators, .listItemIndicators {
+  right: 0 !important;
+  top: 0 !important;
+  height: 40px !important;  
+  width: 40px !important;  
+}
+.playedIndicator {
+  background-color: rgba(0, 0, 0, 0.7) !important; 
+         border-radius: 0 0 0 5px !important;  
+}
+
+.cardImageContainer, .cardScalable {
+    border-radius: 4px  !important; }
+
