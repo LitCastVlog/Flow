@@ -41,6 +41,8 @@
     transform: none !important;
     border: none !important;
     box-shadow: none !important;
+	transform: translateY(-1px) !important;
+
 }
 /* Rainbow Progress */
 .mdl-slider-background-lower {
@@ -48,36 +50,4 @@
 	repeat-x !important;
 }
 
-
-/* apply to Cards/Home Screen */ 
-
- 
-.itemProgressBar {
-    position: relative;
-    height: 15px;
-    overflow: visible;  
-}
-
-
-
-.itemProgressBarForeground::after {
-    content: "";
-    position: absolute;
-    right: -30px;
-    top: -4px;
-    width: 40px;
-    height: 150px;
-    background: url("https://i.ibb.co/YB0JXGGP/osdmarker.gif")  
-    no-repeat !important;
-    z-index: 10;
-}
-
-
-.itemProgressBarForeground::before {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    background: url("https://i.ibb.co/Kj9ZB0xX/bufferbg.gif")
-} 
 
