@@ -362,11 +362,21 @@ html,
     top: 25px !important;
     backdrop-filter: unset !important;
 }
-.mdl-slider-background-flex {
-    height: 10px !important;
-    margin-top: -5px !important;
-    border-radius: 100px !important;
-    background: hsla(0, 0%, 100%, .2) !important;
+@supports selector(div:not(.parent .child)) {
+    .mdl-slider-background-flex:not(.layout-mobile .nowPlayingBar .mdl-slider-background-flex) {
+        height: 10px !important;
+        margin-top: -5px !important;
+        border-radius: 100px !important;
+        background: hsla(0,0%,100%,.2) !important;
+    }
+}
+@supports not selector(div:not(.parent .child)) {
+    .mdl-slider-background-flex {
+        height: 10px !important;
+        margin-top: -5px !important;
+        border-radius: 100px !important;
+        background: hsla(0,0%,100%,.2) !important;
+    }
 }
 .mdl-slider-background-lower {
     border-radius: 100px !important;
@@ -939,8 +949,6 @@ div[class=""] {
     background-size: contain !important;
     border-radius: var(--rounded-cards);
 }
-
-
 
 /* Live TV */
 /* Modified background color of active guide cells */
@@ -1574,4 +1582,5 @@ input:not(.mdl-slider) {
 .mediaSourceIndicator {
     border-radius: 0 !important;
     background: #00000085 !important;
+
 }
