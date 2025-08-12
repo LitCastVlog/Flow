@@ -63,3 +63,13 @@ div.nextUpSection {
 .channelsContainer button.itemAction.guide-channelHeaderCell.selected {
     background-color: var(--primary-accent-color) !important; 
 }
+
+
+/* Hide Main Drawer Scrollbars */
+.mainDrawer-scrollContainer::-webkit-scrollbar {
+  display: none;
+}
+.mainDrawer-scrollContainer {
+-ms-overflow-style: none;
+  scrollbar-width: none;  
+}
