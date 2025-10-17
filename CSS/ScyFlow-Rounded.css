@@ -1,0 +1,20 @@
+/* Home cards */
+.card .cardOverlayContainer {
+  border-radius: 0.5rem;
+}
+
+/* Posters, Previews, Cast */
+.card .cardImageContainer {
+  border-radius: 0.5rem;
+}
+
+/* Card image */
+.card .cardScalable {
+  border-radius: 0.5rem;
+}
+
+.indicator {
+  border-radius: calc(infinity * 1px) !important;
+  width: 2rem;
+  height: 2rem;
+}
