@@ -729,7 +729,7 @@ div[class=""] {
 
 /* Resize show/movie image on details page */
 .layout-desktop .detailImageContainer .card {
- top: 0.9em !important;
+  top: calc(9em - 0px) !important; 
     width: 18.3vw !important;
 }
 
@@ -1450,5 +1450,6 @@ input:not(.mdl-slider) {
         top: -10px !important;
 
 }
+
 
 
