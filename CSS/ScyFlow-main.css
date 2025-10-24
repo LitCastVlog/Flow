@@ -729,7 +729,7 @@ div[class=""] {
 
 /* Resize show/movie image on details page */
 .layout-desktop .detailImageContainer .card {
- top: 0.9em !important;
+   top: calc(9em - 0px) !important;
     width: 0.9vw !important;
 }
 
@@ -1300,5 +1300,6 @@ a.emby-button.homeLibraryButton.raised:hover::before {
         top: -10px !important;
 
 }
+
 
 
