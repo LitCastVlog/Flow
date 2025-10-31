@@ -233,6 +233,18 @@
     transform: scale(1); 
 }
 
+/*episode grid 10.11.x quick fix */
+/*apply AFTER "ScyFlow-EpisodeGrid.css" or "ScyFlow-EpisodeGrid-Outline.css"*/
+#itemDetailPage .childrenItemsContainer.itemsContainer.padded-right.vertical-list,
+#itemDetailPage .vertical-list.padded-right.itemsContainer {
+  display: grid !important;
+  grid-template-columns: 1fr 1fr 1fr 1fr; /* Legacy style to not break pre-10.11.X */
+}
+
+#itemDetailPage .vertical-list.padded-right.itemsContainer {
+  grid-template-columns: 1fr 1fr 1fr; 
+}
+
 /* EXPERIMENTAL clickable episode titles */
 /* expand info button to epsode description body and hide info button icon * 
 button.paper-icon-button-light.itemAction.listItemButton:nth-of-type(1) { 
