@@ -234,7 +234,6 @@
 }
 
 /*episode grid 10.11.x quick fix */
-/*apply AFTER "ScyFlow-EpisodeGrid.css" or "ScyFlow-EpisodeGrid-Outline.css"*/
 #itemDetailPage .childrenItemsContainer.itemsContainer.padded-right.vertical-list,
 #itemDetailPage .vertical-list.padded-right.itemsContainer {
   display: grid !important;
