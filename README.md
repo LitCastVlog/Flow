@@ -98,6 +98,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - <img src="./images//10.11-home.jpg" width="100%"/>
         - <img src="./images//10.11-detail-overview.jpg" width="100%"/>
         - <img src="./images//10.11-music-details.jpg" width="100%"/>
+        (dashboard theming for 10.11.x only works using UserCSS/external CSS manager)
         - <img src="./images//10.11-dashboard.jpg" width="100%"/>     
 ---
 
