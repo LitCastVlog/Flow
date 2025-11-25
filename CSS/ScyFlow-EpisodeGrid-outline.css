@@ -47,7 +47,7 @@
 
 .listItem-overview.listItemBodyText {
   height: 5.5em !important;
-  font-size: 1em !important;
+  font-size: 0em !important;
 }
 
 .layout-mobile .listItemImageButton-icon {
