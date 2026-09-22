@@ -107,7 +107,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 ### Easy install (one-liner) 
 `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-oneliner.css');` 
 
-***10.11.x Compatibility (WIP, append after main theme/oneliner)***:
+***12.x Compatibility (WIP, append after main theme/oneliner)***:
 
 `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
 
