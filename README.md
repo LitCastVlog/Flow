@@ -93,12 +93,12 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-FontTweaks.css');`
         - <img src="./images/FontTweaks.png" width="100%"/>
 
-   - # 10.11.x Compatibility (WIP, append after main theme/oneliner)
+   - # 12.x Compatibility (WIP, append after main theme/oneliner)
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
         - <img src="./images//10.11-home.jpg" width="100%"/>
         - <img src="./images//10.11-detail-overview.jpg" width="100%"/>
         - <img src="./images//10.11-music-details.jpg" width="100%"/>
-        (dashboard theming for 10.11.x only works using UserCSS/external CSS manager)
+        (dashboard theming for 10.11+ only works using UserCSS/external CSS manager)
         - <img src="./images//10.11-dashboard.jpg" width="100%"/>     
 ---
 
