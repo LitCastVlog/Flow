@@ -12,6 +12,9 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 <img src="./images/details.png" width="100%"/>
 
+### **12.x - Select "Desktop (Legacy)" in Display settings**
+<img src="./images//legacymode.jpg" width="90%"/>
+
 ### **Outline Cards on hover**
 <img src="./images/outline_hover.gif" width="100%"/>
 <img src="./images/outline.gif" width="100%"/>
@@ -93,13 +96,16 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-FontTweaks.css');`
         - <img src="./images/FontTweaks.png" width="100%"/>
 
-   - # 12.x Compatibility (WIP, append after main theme/oneliner)
+   - # 12.x/modern layout Compatibility (WIP, append after main theme/oneliner)
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
         - <img src="./images//10.11-home.jpg" width="100%"/>
         - <img src="./images//10.11-detail-overview.jpg" width="100%"/>
-        - <img src="./images//10.11-music-details.jpg" width="100%"/>
+        - <img src="./images//10.11-details.jpg" width="100%"/>
         (dashboard theming for 10.11+ only works using UserCSS/external CSS manager)
-        - <img src="./images//10.11-dashboard.jpg" width="100%"/>     
+        - <img src="./images//10.11-dashboard.jpg" width="100%"/>
+   - if you prefer the pre 12.x layout, skip the above and select "Desktop (Legacy)" in Display settings
+        - <img src="./images//legacymode.jpg" width="100%"/>
+   
 ---
 
 ### **Installation:**
