@@ -158,3 +158,25 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     * Example:
     * <img src="./images/install-client-options.png" alt="install-client-options" width="80%"/>
 * Click "Save"
+
+* ## my personal config (12.x legacy):
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-HighDPIExtras.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-EpisodeGrid.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFLow-RoundCastCrew.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/NyanProgress.css');`
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/NyanHomeItemProgress.css');`
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-AnimatedOverlay.css');`
+
+`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css'); `
+
+
