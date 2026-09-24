@@ -15,6 +15,9 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 ### **12.x - Select "Desktop (Legacy)" in Display settings**
 <img src="./images//legacymode.jpg" width="90%"/>
 
+- append the following after the base theme/oneliner:       
+- `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
+
 ### **Outline Cards on hover**
 <img src="./images/outline_hover.gif" width="100%"/>
 <img src="./images/outline.gif" width="100%"/>
@@ -103,7 +106,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - <img src="./images//10.11-details.jpg" width="100%"/>
         (dashboard theming for 10.11+ only works using UserCSS/external CSS manager)
         - <img src="./images//10.11-dashboard.jpg" width="100%"/>
-   - if you prefer the pre 12.x layout, skip the above and select "Desktop (Legacy)" in Display settings
+   - if you prefer the pre 12.x layout, select "Desktop (Legacy)" in Display settings
         - <img src="./images//legacymode.jpg" width="100%"/>
    
 ---
