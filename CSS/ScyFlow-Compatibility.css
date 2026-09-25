@@ -300,3 +300,7 @@ textarea {
         padding-bottom: 5px !important;
     }
 }
+/* 12.x/modern layout fix */
+.layout-desktop .libraryPage:not(#editItemMetadataPage) {
+    margin-left: 0px !important; 
+}
