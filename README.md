@@ -12,11 +12,11 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 <img src="./images/details.png" width="100%"/>
 
-### **12.x - Select "Desktop (Legacy)" in Display settings**
+### **12.x - Select "Desktop (Legacy)" in Display settings and use Legacy compatibility css for best compatibility**
 <img src="./images//legacymode.jpg" width="90%"/>
 
 - append the following after the base theme/oneliner:       
-- `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
+- `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility-Legacy.css');`
 
 ### **Outline Cards on hover**
 <img src="./images/outline_hover.gif" width="100%"/>
@@ -69,16 +69,9 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Blue.css');`
         - <img src="./images/blue.png" width="100%"/>
 
-   - Darker icons/accents (Add this after everything else):
+   - Darker icons/accents (Add this after base theme):
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/Themes/ScyFlow-Dark.css');`
    
-  # Compatible with Scyfin/Ultrachromic themes:     
-    - Seafoam
-        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-seafoam.css');`
-    - Coral
-        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-coral.css');`
-    - Snow
-        - `@import url('https://cdn.jsdelivr.net/gh/loof2736/scyfin@latest/CSS/theme-snow.css');`
   # Experimental (Works in progress)
     - Episode Grid Outline/Dim on hover
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-EpisodeGrid-outline.css');`
@@ -106,7 +99,8 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - <img src="./images//10.11-details.jpg" width="100%"/>
         (dashboard theming for 10.11+ only works using UserCSS/external CSS manager)
         - <img src="./images//10.11-dashboard.jpg" width="100%"/>
-   - if you prefer the pre 12.x layout, select "Desktop (Legacy)" in Display settings
+   - if you prefer the pre 12.x layout, select "Desktop (Legacy)" in Display settings and use legacy css
+   - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility-Legacy.css');`
         - <img src="./images//legacymode.jpg" width="100%"/>
    
 ---
@@ -116,7 +110,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 ### Easy install (one-liner) 
 `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-oneliner.css');` 
 
-***12.x Compatibility (WIP, append after main theme/oneliner)***:
+***12.x modern layout Compatibility (WIP, append after main theme/oneliner)***:
 
 `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
 
@@ -177,6 +171,6 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-AnimatedOverlay.css');`
 
-`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css'); `
+`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility-Legacy.css'); `
 
 
