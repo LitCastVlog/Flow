@@ -1302,4 +1302,7 @@ a.emby-button.homeLibraryButton.raised:hover::before {
 }
 
 
-
+/* Detail page poster fix */
+.detailImageContainer > div {
+    margin-top: -100px !important;
+}
