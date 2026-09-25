@@ -1,0 +1,302 @@
+/* 10.11.x+ fxes (experimental, fixes for future version will go here) */
+
+/* Resize show/movie image on details page */
+.layout-desktop .detailImageContainer .card {
+    top: 1.8em !important;
+    width: 18.3vw !important;
+    position: absolute !important;
+}
+/* Legacy style to not break pre-10.11.X */
+.layout-desktop .infoWrapper .detailImageContainer .card {
+    top: 9em !important;
+}
+
+/* Re-position content on details page */
+.layout-desktop .detailSection {
+    margin-right: 0 !important;
+}
+.layout-desktop .detailPageContent {
+    padding-left: 3.3% !important;
+    padding-right: 0 !important;
+}
+
+/* Add card around description */
+.layout-desktop .detailSectionContent {
+    background: var(--secondary-background-color) !important;
+    border-radius: var(--rounded-cards) !important;
+    padding: 40px 20px 10px 20px !important;
+    margin-top: 50px !important;
+}
+@supports selector(:has(*)) {
+    .layout-desktop .detailPageWrapperContainer:not(:has(.itemMiscInfo-primary .mediaInfoItem)) .detailSectionContent {
+        padding: 0px 20px 10px 20px !important;
+    }
+}
+.layout-mobile .detailSectionContent {
+    background: var(--secondary-background-color) !important;
+    border-radius: var(--rounded-cards) !important;
+    padding: 10px 20px !important;
+}
+
+/* Re-position title */
+.layout-desktop .infoWrapper {
+    margin-top: 245px !important;
+    margin-left: 20.8vw !important;
+}
+.layout-desktop .detailPagePrimaryContainer {
+    padding-left: 3.3% !important;
+}
+/* Fix for title position on 10.11.X */
+.layout-desktop [dir="ltr"] .detailPagePrimaryContainer:not(.detailRibbon) .detailRibbon {
+    padding-left: unset !important;
+}
+.layout-desktop .nameContainer {
+    position: absolute !important;
+    margin-top: -48px !important;
+}
+.layout-desktop .itemMiscInfo {
+    position: absolute !important;
+    margin-left: 12px !important;
+    margin-top: 16px !important;
+}
+
+/* Move description box */
+.layout-desktop .detailPagePrimaryContent {
+    padding-left: 20.4vw !important;
+}
+.layout-mobile .detailPagePrimaryContent {
+    padding-right: 5% !important;
+}
+/* Padding for 2:3 posters */
+.layout-desktop .detailPageWrapperContainer:has(.detailImageContainer .portraitCard) .detailPagePrimaryContent {
+    min-height: 29vw !important;
+}
+/* Padding for 1:1 posters */
+.layout-desktop .detailPageWrapperContainer:has(.detailImageContainer .squareCard) .detailPagePrimaryContent {
+    min-height: 20vw !important;
+} 
+/* Padding for 16:9 posters */
+.layout-desktop .detailPageWrapperContainer:has(.detailImageContainer .backdropCard) .detailPagePrimaryContent {
+    min-height: 12vw !important;
+}
+/* Fix for JMP */
+@supports not selector(:has(*)) {
+    .layout-desktop .detailPageWrapperContainer .detailPagePrimaryContent {
+        min-height: 29vw !important;
+    }
+}
+
+/* Login page */
+.layout-desktop #loginPage {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.layout-desktop #loginPage .padded-left.padded-right.padded-bottom-page.margin-auto-y {
+    background: var(--secondary-background-color) !important;
+    width: 400px !important;
+    border-radius: 25px !important;
+    padding: 50px !important;
+}
+/* Fix padding if login disclaimer is not present */
+.layout-desktop #loginPage .padded-left.padded-right.padded-bottom-page.margin-auto-y:not(:has(.loginDisclaimer p)) {
+    padding-bottom: 100px !important;
+}
+/* Move cancel button */
+.layout-desktop #loginPage .manualLoginForm .btnCancel {
+    position: absolute !important;
+    background: none !important;
+    width: 100px !important;
+    margin-left: -10px !important;
+    margin-top: 70px !important;
+    text-align: left !important;
+}
+/* Shift cancel button on JMP */
+@supports not selector(:has(*)) {
+    .layout-desktop #loginPage .manualLoginForm .btnCancel {
+        margin-top: 115px !important;
+    }
+}
+.layout-desktop #loginPage .visualLoginForm {
+    position: relative !important;
+    background: var(--secondary-background-color) !important;
+    z-index: 1000 !important;
+}
+.layout-desktop #loginPage .btnForgotPassword {
+    background: none !important;
+    font-weight: normal !important;
+    width: 150px !important;
+    text-align: right !important;
+    position: absolute !important;
+    margin-left: 255px !important;
+    margin-top: -195px !important;
+    font-size: smaller !important;
+    color: rgba(255, 255, 255, 0.5) !important;
+    z-index: 1 !important;
+}
+.layout-desktop #loginPage .loginDisclaimerContainer {
+    top: 130px !important;
+    position: relative !important;
+    left: -50px !important;
+    width: 500px !important;
+    margin-top: -35px !important;
+}
+.layout-desktop #loginPage .squareCard {
+    width: 25% !important;
+    font-size: smaller !important;
+}
+@media (max-width: 100em) {
+    .layout-desktop #loginPage .squareCard {
+        width: 20% !important;
+    }
+    .layout-desktop #loginPage .padded-left.padded-right.padded-bottom-page.margin-auto-y {
+        width: 600px !important;
+    }
+    .layout-desktop #loginPage .btnForgotPassword {
+        margin-left: 450px !important;
+    }
+    .layout-desktop #loginPage .disclaimerContainer {
+        width: 700px !important;
+    }
+}
+@media (max-width: 87.5em) {
+    .layout-desktop #loginPage .squareCard {
+        width: 20% !important;
+    }
+}
+@media (max-width: 75em) {
+    .layout-desktop #loginPage .squareCard {
+        width: 20% !important;
+    }
+}
+@media (max-width: 43.75em) {
+    .layout-desktop #loginPage .squareCard {
+        width: 20% !important;
+    }
+}
+
+/* Dashboard fixes for 10.9.x */
+.layout-desktop #userProfilesPage {
+    left: 260px !important;
+}
+.MuiAlert-message {
+    color: #fff !important;
+}
+.MuiDataGrid-root.MuiDataGrid-withBorderColor {
+    border-radius: var(--rounded-cards) !important;
+}
+.infoBanner {
+    border-radius: var(--rounded-cards) !important;
+}
+.MuiToggleButton-root.MuiToggleButtonGroup-groupedHorizontal {
+    border-radius: var(--rounded-cards);
+    padding-inline: 15px !important;
+}
+.MuiAppBar-root.MuiAppBar-positionFixed {
+    padding: 10px !important;
+}
+.MuiAppBar-root.MuiAppBar-positionFixed.MuiAppBar-colorPrimary {
+    background: var(--primary-background-transparent) !important;
+    backdrop-filter: blur(var(--blur)) !important;
+}
+.MuiList-root.MuiList-subheader {
+    padding-left: 10px !important;
+}
+.MuiList-subheader .MuiListItem-root.MuiListItem-gutters {
+    width: 85% !important;
+    margin-inline: auto !important;
+}
+/* Fix for plugins section of dashboard */
+[aria-labelledby="plugins-subheader"].MuiList-subheader .MuiListItemButton-root.MuiListItemButton-gutters {
+    width: 85% !important;
+    margin-inline: auto !important;
+}
+.MuiList-subheader .MuiListItemButton-root.MuiListItemButton-gutters {
+    border-radius: 100px !important;
+    margin: 2px 0px !important;
+    transition: .2s !important;
+    height: 45px !important
+}
+.MuiList-subheader .MuiListItemButton-root.MuiListItemButton-gutters:not(.Mui-selected) .MuiListItemIcon-root,
+.MuiList-subheader .MuiListItemButton-root.MuiListItemButton-gutters:not(.Mui-selected) {
+    color: #D1D1D1
+}
+.MuiList-subheader .MuiListItemButton-root.MuiListItemButton-gutters:hover:not(.Mui-selected) {
+    transform: scale(1.05) !important;
+    background: rgba(44, 44, 44, 0.7) !important;
+}
+.MuiListItemButton-root.Mui-selected {
+    background: var(--secondary-accent-color) !important;
+}
+.MuiListItemButton-root.Mui-selected .MuiListItemIcon-root,
+.MuiListItemButton-root.Mui-selected {
+    color: var(--primary-accent-color) !important;
+}
+.MuiPaper-root.MuiDrawer-paperAnchorDockedLeft {
+    border-right: none !important;
+    background: var(--secondary-background-color) !important;
+    width: 250px !important;
+}
+.MuiListItemIcon-root.MuiSvgIcon-fontSizeMedium {
+    color: inherit !important;
+}
+.MuiPaper-root.MuiPopover-paper {
+    background: #252525 !important;
+    color: #D1D1D1 !important;
+    border-radius: var(--rounded-cards) !important;
+}
+.listItemIcon:not(.listItemIcon-transparent):not(.notification_important) {
+    background: var(--secondary-accent-color) !important;
+    color: var(--primary-accent-color) !important;
+}
+.MuiList-root:not(.MuiList-subheader) .MuiListItemButton-root.MuiListItemButton-gutters {
+    padding: 20px 38px 10px 38px !important;
+}
+.MuiCollapse-root.MuiCollapse-vertical .MuiListItemButton-root.MuiListItemButton-gutters {
+    width: 85% !important;
+    margin-inline: auto !important;
+    padding: 8px 16px !important;
+}
+/* Dynamic colors for "Active Devices" section to respect theme */
+.defaultCardBackground1 {
+    background-color: var(--primary-alt1) !important;
+}
+.defaultCardBackground2 {
+    background-color: var(--primary-alt2) !important;
+}
+.defaultCardBackground3 {
+    background-color: var(--primary-alt3) !important;
+}
+.defaultCardBackground4 {
+    background-color: var(--primary-alt4) !important;
+}
+.defaultCardBackground5 {
+    background-color: var(--primary-alt5) !important;
+}
+/* Modify padding for textarea items so the bottom isn't cut off */
+textarea {
+    padding-bottom: 10px !important;
+}
+/* Background behind dashboard dropdown navigation buttons */
+@supports selector(:has(*)) {
+    .MuiListItem-root:has(.MuiSvgIcon-root[data-testid^="Expand"])::before {
+        content: '';
+        position: absolute;
+        background: #121212;
+        inset: 1px -5px 0px -5px;
+        border-radius: 25px;
+        opacity: 0;
+        transition: inset 0.25s ease-out, opacity 0.01s 0.25s;
+    }
+    .MuiListItem-root:has(.MuiSvgIcon-root[data-testid="ExpandLessIcon"])::before {
+        inset: 0px -5px -190px -5px;
+        opacity: 1;
+        transition: inset 0.25s ease-out, opacity 0.01s;
+    }
+    .MuiListItemButton-root:has(.MuiSvgIcon-root[data-testid="ExpandLessIcon"]) {
+        transform: scale(1.05) !important;
+    }
+    .MuiCollapse-root.MuiCollapse-vertical.MuiCollapse-entered {
+        padding-bottom: 5px !important;
+    }
+}
