@@ -1451,10 +1451,3 @@ input:not(.mdl-slider) {
 
 }
 
-/* Detail page poster fix */
-.detailImageContainer > div {
-    margin-top: -100px !important;
-}
-
-
-
