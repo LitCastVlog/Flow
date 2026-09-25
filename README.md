@@ -93,7 +93,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
         - <img src="./images/FontTweaks.png" width="100%"/>
 
    - # 12.x/modern layout Compatibility (WIP, append after main theme/oneliner)
-        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
+        - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Compatibility.css');`
         - <img src="./images//10.11-home.jpg" width="100%"/>
         - <img src="./images//10.11-detail-overview.jpg" width="100%"/>
         - <img src="./images//10.11-details.jpg" width="100%"/>
@@ -112,7 +112,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 ***12.x modern layout Compatibility (WIP, append after main theme/oneliner)***:
 
-`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility.css');`
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Compatibility.css');`
 
 **(Mobile/Android one-liner)**: `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-oneliner-mobile.css');` 
 
