@@ -310,3 +310,12 @@ textarea {
   background-color: transparent !important;
   box-shadow: none !important;
 }
+
+/* watched indicator fix */
+.cardIndicators > * {
+    color: #ffffffc4 !important;
+}
+.playedIndicator svg {
+    color: #ffffffc4 !important;
+    fill: #ffffffc4 !important;
+}
