@@ -1,4 +1,4 @@
-/* 10.11.x+ fxes (experimental, fixes for future version will go here) */
+/* 12.x+ modern layout fixes (experimental, fixes for future version will go here) */
 
 /* Resize show/movie image on details page */
 .layout-desktop .detailImageContainer .card {
@@ -303,4 +303,10 @@ textarea {
 /* 12.x/modern layout fix */
 .layout-desktop .libraryPage:not(#editItemMetadataPage) {
     margin-left: 0px !important; 
+}
+
+/* transparent top bar */
+.css-s433dn {
+  background-color: transparent !important;
+  box-shadow: none !important;
 }
