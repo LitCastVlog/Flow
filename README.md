@@ -12,8 +12,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
 
 <img src="./images/details.png" width="100%"/>
 
-### **12.x - Select "Desktop (Legacy)" in Display settings and use Legacy compatibility css for best compatibility**
-<img src="./images//legacymode.jpg" width="90%"/>
+
 
 - append the following after the base theme/oneliner:       
 - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility-Legacy.css');`
@@ -124,6 +123,7 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
   - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-smallscreen-fixes.css');`
 
 
+
 **Server-wide install:**
 * Click the hamburger icon (Top left)
 * Navigate to "Dashboard" (If you don't see this, make sure you are signed in to your admin account)
@@ -153,15 +153,36 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
     * <img src="./images/install-client-options.png" alt="install-client-options" width="80%"/>
 * Click "Save"
 
+### **Jellyfin Media Player - Select "Desktop (Legacy)" in Display settings and use Legacy compatibility css for best compatibility**
+<img src="./images//legacymode.jpg" width="90%"/>
+* <img src="./images/JMP-12.x-legacy-details.jpg"/>
+* <img src="./images/JMP-12.x-legacy-detail-overview.jpg"/>
+* <img src="./images/JMP-12.x-legacy-home.jpg"/>
+
+` @import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFLow-RoundCastCrew.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-HighDPIExtras.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css'); `
+
+`@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Compatibility-Legacy.css'); `
+
+
+** append this next line only if the poster on the detail page is still too low: **
+
+` .detailImageContainer > div { margin-top: 40px !important; } `
+
 * ## my personal config (12.x legacy):
 
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-oneliner.css'); `
 
-`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-HighDPIExtras.css'); `
-
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-EpisodeGrid.css'); `
 
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFLow-RoundCastCrew.css'); `
+
+`@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-HighDPIExtras.css'); `
 
 `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/Themes/ScyFlow-Dark.css'); `
 
