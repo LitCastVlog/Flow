@@ -90,6 +90,13 @@ Also avaliable as a [Userstyle](https://userstyles.world/style/21576/flow-for-je
    - Left-Aligned Font/ Poster Spacing / Corner Indicators
         - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-FontTweaks.css');`
         - <img src="./images/FontTweaks.png" width="100%"/>
+   
+   - Music Bar
+        - `@import url('https://cdn.jsdelivr.net/gh/LitCastVlog/Flow@main/CSS/ScyFlow-Music.css');`
+        - <img src="./images/ScyFlow-Music.gif" width="100%"/>
+        - (optional) use with Nyan Progress Bar
+        - <img src="./images/ScyFlow-Music.jpg" width="100%"/>     
+
 
    - # 12.x/modern layout Compatibility (WIP, append after main theme/oneliner)
         - `@import url('https://cdn.statically.io/gh/LitCastVlog/Flow/main/CSS/ScyFlow-Compatibility.css');`
