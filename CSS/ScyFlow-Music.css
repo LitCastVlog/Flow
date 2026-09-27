@@ -1,0 +1,381 @@
+/* Flow Music/Now Playing Bar addon */
+
+.nowPlayingBar {
+    position: relative;
+    z-index: 100;
+    background: rgba(18, 18, 18, 0.97) !important;
+    border-top: 1px solid rgba(255, 255, 255, 0.07);
+    box-shadow:
+        0 -8px 30px rgba(0, 0, 0, 0.35);
+    backdrop-filter: blur(18px);
+    -webkit-backdrop-filter: blur(18px);
+}
+
+.nowPlayingBarTop {
+    position: relative;
+    padding: 8px 14px 10px;
+}
+
+/* album art vinyl spin */
+.nowPlayingBarInfoContainer {
+    display: flex;
+    align-items: center;
+    gap: 13px;
+    min-width: 230px;
+}
+
+.nowPlayingImage {
+    position: relative;
+    flex: 0 0 52px;
+    width: 52px !important;
+    height: 52px !important;
+    min-width: 52px;
+    min-height: 52px;
+    border-radius: 50% !important;
+    background-size: cover !important;
+    background-position: center center !important;
+    background-repeat: no-repeat !important;
+    border: 3px solid #080808;
+    box-sizing: border-box;
+    overflow: hidden;
+    box-shadow:
+        0 2px 8px rgba(0, 0, 0, 0.65),
+        0 0 0 1px rgba(255,255,255,0.04);
+    animation:
+        jellyfinVinylSpin 5s linear infinite;
+    isolation: isolate;
+}
+
+/* vinyl overlay */
+.nowPlayingImage::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: 50%;  
+    background:
+        repeating-radial-gradient(
+            circle at center,
+            rgba(255,255,255,0.00) 0px,
+            rgba(255,255,255,0.00) 2px,
+            rgba(255,255,255,0.10) 2.5px,
+            rgba(255,255,255,0.00) 3.5px,
+            rgba(255,255,255,0.00) 5px
+        );
+    mix-blend-mode: overlay;
+    pointer-events: none;
+    z-index: 2;
+}
+
+.nowPlayingImage::after {
+    content: "";
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    background:
+        radial-gradient(
+            circle,
+            #d8d8d8 0 18%,
+            #555 19% 40%,
+            #111 41% 100%
+        );
+    box-shadow:
+        0 0 0 2px rgba(0,0,0,0.65),
+        0 1px 4px rgba(0,0,0,0.8);
+    pointer-events: none;
+    z-index: 4;
+}
+
+/* rotate album art */
+
+@keyframes jellyfinVinylSpin {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}
+
+.nowPlayingBarText {
+    min-width: 0;
+    line-height: 1.25;
+}
+
+.nowPlayingBarText > div:first-child a {
+    color: #ffffff !important;
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.nowPlayingBarSecondaryText a {
+    color: #b3b3b3 !important;
+    text-decoration: none;
+}
+
+.nowPlayingBarText a:hover {
+    color: #f4f4f4 !important;
+    text-decoration: underline;
+}
+
+.nowPlayingBarCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 4px;
+}
+
+.nowPlayingBarCenter .mediaButton {
+    width: 38px;
+    height: 38px;
+    border-radius: 50%;
+    color: #b3b3b3 !important;
+    transition:
+        transform .15s ease,
+        color .15s ease,
+        background .15s ease;
+}
+
+.nowPlayingBarCenter .mediaButton:hover {
+    color: #ffffff !important;
+    background: rgba(255,255,255,0.08);
+    transform: scale(1.08);
+}
+
+.nowPlayingBarCenter .playPauseButton {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background: #ffffff !important;
+    color: #000000 !important;
+    box-shadow:
+        0 2px 8px rgba(0,0,0,0.35);
+    transition:
+        transform .15s ease,
+        box-shadow .15s ease;
+}
+
+.nowPlayingBarCenter .playPauseButton:hover {
+    background: #ffffff !important;
+    color: #000000 !important;
+    transform: scale(1.08);
+    box-shadow:
+        0 3px 12px rgba(0,0,0,0.45);
+}
+
+.nowPlayingBarCenter
+.playPauseButton
+.material-icons {
+    color: #000000 !important;
+}
+
+.nowPlayingBarCurrentTime {
+    margin-left: 10px;
+    color: #a7a7a7;
+    font-size: 11px;
+    white-space: nowrap;
+}
+
+.nowPlayingBarRight {
+    display: flex;
+    align-items: center;
+    gap: 2px;
+}
+
+.nowPlayingBarRight .mediaButton {
+    color: #b3b3b3 !important;
+    border-radius: 50%;
+    transition:
+        color .15s ease,
+        transform .15s ease,
+        background .15s ease;
+}
+
+.nowPlayingBarRight .mediaButton:hover {
+    color: #ffffff !important;
+    background: rgba(255,255,255,0.08);
+    transform: scale(1.08);
+}
+
+.nowPlayingBarVolumeSliderContainer {
+    width: 80px !important;
+    margin: 0 8px;
+}
+
+.nowPlayingBarVolumeSlider {
+    height: 4px !important;
+}
+
+.nowPlayingBarCenter .stopButton {
+    display: none !important;
+}
+
+.nowPlayingBarRight .playPauseButton {
+    display: none !important;
+}
+
+@media (max-width: 900px) {
+.nowPlayingBarInfoContainer {
+        min-width: 180px;
+    }
+    .nowPlayingBarRight
+    .nowPlayingBarVolumeSliderContainer {
+        display: none !important;
+    }
+  
+    .nowPlayingBarRight
+    .toggleRepeatButton,
+    .nowPlayingBarRight
+    .btnShuffleQueue {
+        display: none !important;
+    }
+}
+
+
+@media (max-width: 650px) {
+
+    .nowPlayingBarInfoContainer {
+        min-width: 0;
+    }
+    .nowPlayingBarText {
+        display: none;
+    }
+    .nowPlayingImage {
+        flex-basis: 44px;
+        width: 44px !important;
+        height: 44px !important;
+        min-width: 44px;
+        min-height: 44px;
+    }
+
+    .nowPlayingBarCurrentTime {
+        display: none;
+    }
+
+    .nowPlayingBarRight .favorite,
+    .nowPlayingBarRight .btnToggleContextMenu {
+        display: none !important;
+    }
+
+}
+
+
+/* controls */
+.nowPlayingBarRight .buttonActive {
+    color: #1ed760 !important;
+    background: rgba(30, 215, 96, 0.12) !important;
+    border-radius: 50%;
+    box-shadow:
+        0 0 0 1px rgba(30, 215, 96, 0.08),
+        0 0 12px rgba(30, 215, 96, 0.08);
+}
+
+.nowPlayingBarRight .buttonActive .material-icons {
+    color: #FFF !important;
+}
+
+.nowPlayingBarRight .buttonActive:hover {
+    color: #FFF !important;
+    background: rgba(30, 215, 96, 0.20) !important;
+    transform: scale(1.08);
+}
+
+
+
+.nowPlayingBarRight .toggleRepeatButton.buttonActive {
+    color: #FFF !important;
+    background: rgba(30, 215, 96, 0.12) !important;
+}
+
+.nowPlayingBarRight
+.toggleRepeatButton.buttonActive
+.repeat_one {
+    color: #FFF !important;
+}
+
+.nowPlayingBarRight .btnShuffleQueue.buttonActive {
+    color: #FFF !important;
+    background: rgba(30, 215, 96, 0.12) !important;
+}
+
+.nowPlayingBarRight
+.btnShuffleQueue.buttonActive
+.shuffle {
+    color: #FFF !important;
+}
+
+.nowPlayingBarRight .openLyricsButton.buttonActive,
+.nowPlayingBarRight .openLyricsButton:focus {
+    color: #FFF !important;
+    background: rgba(30, 215, 96, 0.12) !important;
+    border-radius: 50%;
+}
+
+.nowPlayingBarRight
+.openLyricsButton.buttonActive
+.material-icons,
+.nowPlayingBarRight
+.openLyricsButton:focus
+.material-icons {
+    color: #FFF !important;
+}
+
+.nowPlayingBarRight
+.toggleRepeatButton.buttonActive::after,
+.nowPlayingBarRight
+.btnShuffleQueue.buttonActive::after,
+.nowPlayingBarRight
+.openLyricsButton.buttonActive::after {
+    content: "";
+    position: absolute;
+    width: 4px;
+    height: 4px;
+    bottom: 3px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-radius: 50%;
+    background: #FFF
+;
+
+    box-shadow:
+        0 0 6px rgba(30, 215, 96, 0.8);
+    pointer-events: none;
+}
+
+.appfooter .nowplayingbar {
+    position: fixed !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    margin-left: -100px !important;
+}
+
+/* fix width */
+.layout-desktop .appfooter,
+.layout-desktop .appfooter .nowPlayingBar {
+    left: 0 !important;
+    margin-left: 0 !important;
+    padding-left: 0 !important;
+}
+
+
+.layout-desktop .appfooter .nowPlayingBar {
+    position: fixed !important;
+    left: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    width: 100vw !important;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
+.layout-desktop .appfooter .nowPlayingBarTop {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    box-sizing: border-box !important;
+}
+
