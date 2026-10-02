@@ -305,13 +305,13 @@ textarea {
     margin-left: 0px !important; 
 }
 
-/* transparent top bar */
+/* 12.x/transparent top bar */
 .css-s433dn {
   background-color: transparent !important;
   box-shadow: none !important;
 }
 
-/* watched indicator fix */
+/* 12.x/watched indicator fix */
 .cardIndicators > * {
     color: #ffffffc4 !important;
 }
@@ -319,3 +319,8 @@ textarea {
     color: #ffffffc4 !important;
     fill: #ffffffc4 !important;
 }
+
+
+/* 12.x/description card background fix*/
+.layout-desktop .detailSectionContent {
+    margin-top: 40px !important;
